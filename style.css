@@ -26,9 +26,11 @@ ul {
 
 .container1 {
   display: flex;
+  justify-content: center;
+  text-align: center;
   flex-direction: column;
   background-color: blue;
   border: solid 1px blue;
   border-radius: 10px;
-
+  color: #ffffff;
 }
