@@ -9,25 +9,41 @@
 </head>
 
 <body>
-  <h1>Rock Paper Scissors</h1>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
 
   <main>
-    <div class="container">
-      <ul>
-        <li class="btn-play " alt="Rock"><button value="0">✊</button></li>
-        <li class="btn-play " alt="Paper"><button value="1">🖐️</button></li>
-        <li class="btn-play " alt="Scissors"><button value="2">✌️</button></li>
-      </ul>
-    </div>
+    <section class="player-options">
+      <section>
+        <p>Select one:</p>
+      </section>
 
-    <!-- Score section -->
-    <div class="container1">
-      <span>Score:</span>
-      <output id="scoreValue">0</output>
-    </div>
+      <section>
+        <button class="btn-click" type="submit" name="action" value="rock">✊</button>
+        <button class="btn-click" type="submit" name="action" value="paper">🖐️</button>
+        <button class="btn-click" type="submit" name="action" value="scissor">✌️</button>
+      </section>
+    </section>
+
+    <section class="choices-container">
+      <div class="choice-box">
+        <p class="player-label">You:
+          <span class="player-choice">✊</span>
+        </p>
+      </div>
+      <div class="choice-box">
+        <p class="player-label">Computer:
+          <span class="computer-choice">🖐️</span>
+        </p>
+      </div>
+
+
+    </section>
+
   </main>
 
-  <h3></h3>
+  <h3 class="result"> 😎Congragulations! You Win!</h3>
   <script src="script.js"></script>
 </body>
 
